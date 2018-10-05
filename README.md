@@ -1,5 +1,4 @@
 # E--Guzzle
-E-Guzzle is an app to find near by electric vehicle charging station. 
 E-Guzzle is your guide to refuelling or recharging your Eco-Friendly Vehicle wherever you are in India. It finds you the electric vehicle charging stations nearby.
 
 I have used javascript, CSS and have deployed it using Android studio.
