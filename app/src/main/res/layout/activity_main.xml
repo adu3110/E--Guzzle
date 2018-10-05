@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/ev_station"
+        android:gravity="center"
+        android:id="@+id/mainLayout">
+
+        <Button
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30px"
+            android:textStyle="bold"
+            android:background="@drawable/mybutton"
+            android:textColor="#00BB00"
+            android:text="Bangalore"
+            android:elevation="10dp"
+            android:id="@+id/btnBangalore"/>
+
+        <Button
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30px"
+            android:textStyle="bold"
+            android:background="@drawable/mybutton"
+            android:textColor="#00BB00"
+            android:text="New Delhi"
+            android:elevation="10dp"
+            android:id="@+id/btnDelhi"/>
+
+        <Button
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30px"
+            android:textStyle="bold"
+            android:background="@drawable/mybutton"
+            android:textColor="#00BB00"
+            android:text="Hyderabad"
+            android:elevation="10dp"
+            android:id="@+id/btnHyd"/>
+
+        <Button
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30px"
+            android:textStyle="bold"
+            android:background="@drawable/mybutton"
+            android:textColor="#00BB00"
+            android:text="Chennai"
+            android:elevation="10dp"
+            android:id="@+id/btnChennai"/>
+
+        <Button
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30px"
+            android:textStyle="bold"
+            android:background="@drawable/mybutton"
+            android:textColor="#00BB00"
+            android:text="Mumbai"
+            android:elevation="10dp"
+            android:id="@+id/btnMumbai"/>
+
+        <Button
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30px"
+            android:textStyle="bold"
+            android:background="@drawable/mybutton"
+            android:textColor="#00BB00"
+            android:text="Kolkata"
+            android:elevation="10dp"
+            android:id="@+id/btnKolkata"/>
+
+        <Button
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30px"
+            android:textStyle="bold"
+            android:background="@drawable/mybutton"
+            android:textColor="#00BB00"
+            android:text="Pune"
+            android:elevation="10dp"
+            android:id="@+id/btnPune"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
